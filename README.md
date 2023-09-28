@@ -1,5 +1,5 @@
 # IPL_Totals
-This project attempts to predict the results of IPL matches from a Kaggle dataset(https://www.kaggle.com/code/akashdubey022/data-analysis-and-prediction-of-ipl/notebook). The model considers the toss winner, which team is batting first, which team is chasing, and what the batting first total is. In its current state, the model achieves 58-62% accuracy.
+This project attempts to predict the results of IPL matches from a Kaggle dataset(https://www.kaggle.com/code/akashdubey022/data-analysis-and-prediction-of-ipl/notebook). The model considers the toss winner, which team is batting first, which team is chasing, and what the batting first total is. In its current state, the model achieves 56-62% accuracy.
 
 Latest Version: 
 IPLTotals_InPyTorch.ipynb --> The program uses PyTorch and improves on the Keras version of the model, using data standardization and slightly better-tuned hyper-parameters (and the additional usage of weight_decay) to achieve more consistent results with higher accuracy.
